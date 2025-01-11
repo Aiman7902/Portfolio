@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aiman Latiff</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aiman Latiff</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Aiman.png" alt="Muhammad Aiman profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Aiman Latiff</h1>
+            <p class="section__text__p2">Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Muhammad Aiman Bin Mohd Latiff_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/muhammad-aiman-bin-mohd-latiff-8222aa278/'">
+                <img src="./assets/github.png" alt="GitHub Profile" class="icon" onclick="location.href='https://github.com/Aiman7902'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/Pikachu.jpeg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>6 months </br>Software Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Matriculation Certificate</br>B.Sc. Bachelors Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Passionate Software Engineer dedicated to crafting innovative solutions and driving technological advancements. Throughout my journey, I've developed robust software applications and contributed to cutting-edge project in areas such as web development, mobile app development, machine learning, etc. I thrive in collaborative environments where creativity and problem-solving skills are valued.
+
+                        I am committed to leveraging my expertise in software engineering to create impactful solutions that address complex challenges. With proficiency in HTML, Python, Java, JavaScript, etc. I continuously strive to deliver high-quality products that exceed expectations and drive positive outcomes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software Engineer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Perl Script</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#project'">
+    </section>
+    <!-- PROJECT SECTION-->
+    <section id="project">
+        <p class="section__text__p1">Check Out My</p>
+        <h1 class="title">Projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="./assets/WeatherAppInterface.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Weather Application</h3>
+                    <p class="project-description">The weather app shows users the current weather conditions, like temperature, humidity, and wind speed. 
+                        It gets this information from a weather service (like OpenWeatherMap or a similar source) and displays it in a simple, easy-to-understand format.</p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="./assets/FaceRecognitionInterface.png" alt="Project 2" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Face Recognition Student Attendance System</h3>
+                    <p class="project-description">The system uses a camera to take a picture of someone's face. It then compares this picture with a database of stored faces to check if there's a match. 
+                        If it finds a match, it can confirm the person's identity. This is helpful for things like keeping track of attendance in a class or security systems.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/TicTacToe.png" alt="Project 3" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Tic Tac Toe</h3>
+                    <p class="project-description">A Tic-Tac-Toe game with settings to choose between multiplayer or single player modes, 
+                        select board sizes (3x3, 4x4, or 5x5), set a match timer, view board info, and track player counters.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Info</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Email</h3>
+                <p><i class="fa fa-envelope"></i> <a href="mailto:aimanlatif7808@gmail.com">aimanlatif7808@gmail.com</a></p>
+            </div>
+            <div class="contact-info">
+                <h3>Phone Number</h3>
+                <p><i class="fa fa-phone"></i> <a href="tel:+601161713647">+60 11-5171 3647</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
