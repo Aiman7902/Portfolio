@@ -1,2 +1,2 @@
 # Portfolio
-My portfolio showcases projects across web development, mobile apps, and more. I work with technologies like Java, Python, JavaScript, and C# to build functional and user-friendly applications. Feel free to explore my work and connect with me for collaboration opportunities!
+Just try to build my portfolio to showcases projects from my university across web development, mobile apps, and more. I work with technologies like Java, Python, JavaScript, and C# and now trying to update it to my portfolio. My portfolio may just contains a basic things since this is for learning...
